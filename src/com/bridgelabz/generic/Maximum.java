@@ -10,15 +10,15 @@ public class Maximum {
            System.out.print("Enter First Value: ");
            Float first = scan.nextFloat();
 
+           System.out.print("Enter First Value: ");
+           String first = scan.next();
+
            System.out.print("Enter Second Value: ");
-           Float second = scan.nextFloat();
+           String second = scan.next();
 
-           System.out.print("Enter Third Value: ");
-           Float third = scan.nextFloat();
+            System.out.print("Enter Third Value: ");
+            String third = scan.next();
 
-            max.findMax(first,second,third);
-        }
- }
-
-
-
+             max.findMax(first,second,third);
+     }
+}
